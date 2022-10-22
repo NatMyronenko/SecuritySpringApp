@@ -26,7 +26,7 @@ public class Person {
 
     @Min(value = 1900, message = "birth year should be more than 1900")
     @Column(name = "year_of_birth")
-    private int yearOfBirth;
+    private long yearOfBirth;
 
     @Column(name = "password")
     private String password;
